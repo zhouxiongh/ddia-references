@@ -326,7 +326,7 @@ Chapter 2 References
 
       > 小结
       >
-      > ……以上介绍的所有数据库都使用于这种场景，这就是为什么研究人员开发了专门的基因组数据库软件，如 GenBank[48]
+      > ……以上介绍的所有数据库都不适用于这种场景，这就是为什么研究人员开发了专门的基因组数据库软件，如 GenBank[48]
 
 1. Fons Rademakers:
       “[ROOT for Big Data Analysis](https://indico.cern.ch/event/246453/contributions/1566610/attachments/423154/587535/ROOT-BigData-Analysis-London-2013.pdf),” at *Workshop on the Future of Big Data Management*,
