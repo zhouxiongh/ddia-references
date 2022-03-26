@@ -7,18 +7,22 @@ Chapter 1 References
 1.  Michael Stonebraker and Uğur Çetintemel:
     “['One Size Fits All': An Idea Whose Time Has Come and Gone](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.9136&rep=rep1&type=pdf),” at *21st International Conference
     on Data Engineering* (ICDE), April 2005.
+    > 它们针对不同的应用场景进行优化，不适合再归为传统类型
 
 1.  Walter L. Heimerdinger and Charles B. Weinstock:
     “[A Conceptual Framework for System Fault Tolerance](https://resources.sei.cmu.edu/asset_files/TechnicalReport/1992_005_001_16112.pdf),” Technical Report CMU/SEI-92-TR-033, Software Engineering Institute, Carnegie
     Mellon University, October 1992.
+    > 注意，故障与“失效”不完全一致
 
 1.  Ding Yuan, Yu Luo, Xin Zhuang, et al.:
     “[Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf),” at *11th USENIX Symposium on Operating Systems Design
     and Implementation* (OSDI), October 2014.
+    > 很多关键的 bug 实际上正是由于错误处理不当导致的
 
 1.  Yury Izrailevsky and Ariel Tseitlin:
     “[The Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116),”
     *netflixtechblog.com*, July 19, 2011.
+    > 通过故意引发故障的方式，来持续检验、测试系统的容错机制，增加对真实故障时应对的信心
 
 1.  Daniel Ford, François Labelle, Florentina I. Popovici, et al.:
     “[Availability in Globally Distributed Storage Systems](http://research.google.com/pubs/archive/36737.pdf),”
@@ -27,36 +31,46 @@ Chapter 1 References
 
 1.  Brian Beach:
     “[Hard Drive Reliability Update – Sep 2014](https://www.backblaze.com/blog/hard-drive-reliability-update-september-2014/),” *backblaze.com*, September 23, 2014.
+    > 研究证明硬盘的平均无故障时间（MTTF）约为 10~50 年
 
 1.  Laurie Voss:
     “[AWS: The Good, the Bad and the Ugly](https://web.archive.org/web/20160429075023/http://blog.awe.sm/2012/12/18/aws-the-good-the-bad-and-the-ugly/),” *blog.awe.sm*, December 18, 2012.
+    > 虚拟机实例经常会在事先无告警的情况下出现无法访问问题
 
 1.  Haryadi S. Gunawi, Mingzhe Hao, Tanakorn
     Leesatapornwongsa, et al.: “[What Bugs Live in the Cloud?](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf),” at *5th ACM Symposium on Cloud Computing* (SoCC), November 2014.
     [doi:10.1145/2670979.2670986](http://dx.doi.org/10.1145/2670979.2670986)
+    > 另一类故障是系统内的软件问题
 
 1.  Nelson Minar:
       “[Leap Second Crashes Half   the Internet](http://www.somebits.com/weblog/tech/bad/leap-second-2012.html),” *somebits.com*, July 3, 2012.
+      > 2012年6约30日发生闰秒，由于 Linux 内核中的一个 bug，导致了很多应用在该时刻发生挂起
 
 1.  Amazon Web Services:
       “[Summary of the Amazon EC2 and Amazon RDS Service   Disruption in the US East Region](http://aws.amazon.com/message/65648/),” *aws.amazon.com*, April 29, 2011.
+      > 级联故障，其中某个组件的小故障触发另一个组件故障，进而引发更多的问题
 
 1.  Richard I. Cook:
     “[How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf),” Cognitive Technologies Laboratory, April 2000.
+    > 导致软件故障的 bug 通常会长时间处于引而不发的状态，直到碰到特定的触发条件。这意味着系统软件其实对使用环境存在某种假设，而这种假设多数情况都可以满足，但是在特定情况下，假设条件变得不再成立
 
 1.  Jay Kreps:
     “[Getting Real About Distributed System Reliability](http://blog.empathybox.com/post/19574936361/getting-real-about-distributed-system-reliability),” *blog.empathybox.com*, March 19, 2012.
+    > 如果系统提供某些保证，例如，在消息队列中，输出消息的数量应等于输入消息的数量，则可以不断地检查确认，如果发现差异则立即告警
 
 1.  David Oppenheimer, Archana Ganapathi, and David A. Patterson:
     “[Why Do Internet Services Fail, and What Can Be Done About It?](http://static.usenix.org/legacy/events/usits03/tech/full_papers/oppenheimer/oppenheimer.pdf),” at *4th USENIX Symposium on
     Internet Technologies and Systems* (USITS), March 2003.
+    > 例如，一项针对大型互联网服务的调查发现，运维者的配置错误居然是系统下线的首要原因，而硬件问题（服务器或网络）仅在 10%~25% 的故障中有所影响
 
 1.  Nathan Marz:
       “[Principles   of Software Engineering, Part 1](http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html),” *nathanmarz.com*, April 2, 2013.
+      > 在其他行业成为遥测，一旦火箭离开地面，遥测对于跟踪和了解故障至关重要
 
 1.  Michael Jurewitz:
     “[The Human Impact of Bugs](http://jury.me/blog/2013/3/14/the-human-impact-of-bugs),”
     *jury.me*, March 15, 2013.
+    > 例如一对父母，将其所有的照片以及他们孩子的视频存放在你的照片应用中
 
 1.  Raffi Krikorian:
     “[Timelines at Scale](http://www.infoq.com/presentations/Twitter-Timeline-Scalability),”
