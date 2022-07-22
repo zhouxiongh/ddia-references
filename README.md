@@ -24,18 +24,18 @@ to find open-access PDF files.
 Chapters
 --------
 
-1.  [References for Chapter  1](https://github.com/ept/ddia-references/blob/master/chapter-01-refs.md)
-2.  [References for Chapter  2](https://github.com/ept/ddia-references/blob/master/chapter-02-refs.md)
-3.  [References for Chapter  3](https://github.com/ept/ddia-references/blob/master/chapter-03-refs.md)
-4.  [References for Chapter  4](https://github.com/ept/ddia-references/blob/master/chapter-04-refs.md)
-5.  [References for Chapter  5](https://github.com/ept/ddia-references/blob/master/chapter-05-refs.md)
-6.  [References for Chapter  6](https://github.com/ept/ddia-references/blob/master/chapter-06-refs.md)
-7.  [References for Chapter  7](https://github.com/ept/ddia-references/blob/master/chapter-07-refs.md)
-8.  [References for Chapter  8](https://github.com/ept/ddia-references/blob/master/chapter-08-refs.md)
-9.  [References for Chapter  9](https://github.com/ept/ddia-references/blob/master/chapter-09-refs.md)
-10. [References for Chapter 10](https://github.com/ept/ddia-references/blob/master/chapter-10-refs.md)
-11. [References for Chapter 11](https://github.com/ept/ddia-references/blob/master/chapter-11-refs.md)
-12. [References for Chapter 12](https://github.com/ept/ddia-references/blob/master/chapter-12-refs.md)
+1.  [References for Chapter  1](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-01-refs.md)
+2.  [References for Chapter  2](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-02-refs.md)
+3.  [References for Chapter  3](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-03-refs.md)
+4.  [References for Chapter  4](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-04-refs.md)
+5.  [References for Chapter  5](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-05-refs.md)
+6.  [References for Chapter  6](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-06-refs.md)
+7.  [References for Chapter  7](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-07-refs.md)
+8.  [References for Chapter  8](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-08-refs.md)
+9.  [References for Chapter  9](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-09-refs.md)
+10. [References for Chapter 10](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-10-refs.md)
+11. [References for Chapter 11](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-11-refs.md)
+12. [References for Chapter 12](https://github.com/zhouxiongh/ddia-references/blob/master/chapter-12-refs.md)
 
 Maps
 ----
