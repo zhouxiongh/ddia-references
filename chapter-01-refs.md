@@ -1,7 +1,7 @@
 Designing Data-Intensive Applications
 =====================================
 
-Chapter 1 References
+Chapter 1 Reliable, Scalable, and Maintainable Applications
 --------------------
 
 1.  Michael Stonebraker and Uğur Çetintemel:
@@ -104,7 +104,7 @@ Chapter 1 References
       
       > 人为失误
       >
-      > ……在其他行业成为遥测，一旦火箭离开地面，遥测对于跟踪和了解故障至关重要
+      > ……在其他行业称为遥测，一旦火箭离开地面，遥测对于跟踪和了解故障至关重要
       
 1.  Michael Jurewitz:
     “[The Human Impact of Bugs](http://jury.me/blog/2013/3/14/the-human-impact-of-bugs),”

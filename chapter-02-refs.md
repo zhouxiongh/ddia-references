@@ -1,7 +1,7 @@
 Designing Data-Intensive Applications
 =====================================
 
-Chapter 2 References
+Chapter 2 Data Models and Query Languages
 --------------------
 
 1. Edgar F. Codd:
@@ -72,7 +72,7 @@ Chapter 2 References
 
      > 关系-数据不匹配
      >
-     > ……于 XML 相比，Json 的吸引力在于它更简单。面向文档的数据库（MongoDB、RethinkDB、CouchDB和Espresso）都支持该数据类型
+     > ……于 XML 相比，JSON 的吸引力在于它更简单。面向文档的数据库（MongoDB、RethinkDB、CouchDB和Espresso）都支持该数据类型
 
 1. Rick Long, Mark Harrington, Robert Hain, and Geoff Nicholls:
      [*IMS Primer*](http://www.redbooks.ibm.com/redbooks/pdfs/sg245352.pdf).

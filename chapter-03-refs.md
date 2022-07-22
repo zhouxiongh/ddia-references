@@ -1,7 +1,7 @@
 Designing Data-Intensive Applications
 =====================================
 
-Chapter 3 References
+Chapter 3 Storage and Retrieval
 --------------------
 
 1. Alfred V. Aho, John E. Hopcroft, and Jeffrey D. Ullman:
